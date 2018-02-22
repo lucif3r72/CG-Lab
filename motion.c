@@ -251,7 +251,7 @@ int main(){
 
                     initgraph(&gd, &gm, NULL);
                     setcolor(3);
-                    drawpoly(n+1, arr);
+                    drawpoly(n+1, arr);				//polygon drawing function
                     delay(1000);
                     //cleardevice();
 
