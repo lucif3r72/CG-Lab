@@ -20,7 +20,7 @@ int main(){
 				setcolor(col+1);
 				line(0 +tx,270,-320 + tx,270);
 				if (col == 15)
-                    col = 2;
+                    			col = 2;
 				delay(1000);
 			}
 
@@ -38,7 +38,7 @@ int main(){
 				setcolor(col);
 				line(-120 + tx, 220, -120 + tx, 270);		//frontwindow
 				if (col == 15)
-                    col = 1;
+                    			col = 1;
 				delay(1000);
 			}
 
@@ -48,7 +48,7 @@ int main(){
 				setcolor(col+2);
 				circle(-60 + tx, 350, 30);
 				if (col == 15)
-                    col = 1;
+                    			col = 1;
 				delay(1000);
 			}
 
@@ -57,7 +57,7 @@ int main(){
 				setcolor(col+2);
 				circle(-260 + tx, 350, 30);
 				if (col == 15)
-                    col = 1;
+                    			col = 1;
 				delay(1000);
 			}
 
